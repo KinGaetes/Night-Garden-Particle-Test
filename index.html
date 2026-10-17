@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Jardín nocturno · v7</title><link rel="stylesheet" href="css/styles.css"></head>
+<body>
+<canvas id="garden" tabindex="0" data-i18n-aria-label="canvas"></canvas>
+<header class="toolbar"><button id="toggle" aria-controls="panel" aria-expanded="true" data-i18n="controls"></button><span class="brand" data-i18n="title"></span><button id="pause" data-i18n="pause"></button><button id="clear" data-i18n="clear"></button></header>
+<aside id="panel" aria-labelledby="panelTitle">
+<div class="panel-head"><div><p class="eyebrow">V7 · CANVAS 2D</p><h1 id="panelTitle" data-i18n="title"></h1></div><button id="close" data-i18n-aria-label="close">×</button></div>
+<p class="intro" data-i18n="intro"></p>
+<label class="row"><span data-i18n="language"></span><select id="language"><option value="auto" data-i18n="autoLanguage"></option><option value="es">Español</option><option value="en">English</option><option value="zh">中文</option><option value="ja">日本語</option></select></label>
+<label class="row"><span data-i18n="preset"></span><select id="preset"></select></label>
+<div class="actions"><button id="reset" data-i18n="reset"></button><button id="savePreset" data-i18n="savePreset"></button></div>
+<details open><summary data-i18n="emission"></summary><label class="row"><span data-i18n="mode"></span><select id="mode"><option value="manual" data-i18n="manual"></option><option value="auto" data-i18n="automatic"></option><option value="drag" data-i18n="drag"></option></select></label><div id="emissionControls"></div></details>
+<details open><summary data-i18n="flowersHeading"></summary><div id="flowerControls"></div></details>
+<details><summary data-i18n="layers"></summary><div id="layerControls"></div></details>
+<details><summary data-i18n="palette"></summary><p class="note" data-i18n="weightsHint"></p><div id="paletteControls"></div><div id="accentControls"></div></details>
+<details open><summary data-i18n="composition"></summary><label class="row"><span data-i18n="seed"></span><input id="seed" type="number" min="0" max="4294967295" step="1"></label><div class="actions"><button id="replay" data-i18n="replay"></button><button id="undo" data-i18n="undo"></button><button id="saveScene" data-i18n="saveScene"></button><button id="import" data-i18n="import"></button></div><input id="file" type="file" accept=".json,application/json" hidden><p class="note" data-i18n="timelineHint"></p></details>
+<details open><summary data-i18n="exports"></summary><div class="actions"><button id="png">PNG</button><button id="video" data-i18n="video"></button><button id="html" data-i18n="html"></button></div><p class="note" data-i18n="videoHint"></p></details>
+<p class="note" data-i18n="shortcuts"></p><p class="note" data-i18n="localHint"></p>
+</aside>
+<footer><span id="hint" data-i18n="hint"></span><output id="stats"></output></footer><div id="status" role="status" aria-live="polite"></div>
+<script src="js/config.js"></script><script src="js/effects.js"></script><script src="js/engine.js"></script><script src="js/i18n.js"></script><script src="js/exports.js"></script><script src="js/app.js"></script>
+</body></html>

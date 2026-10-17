@@ -1,0 +1,93 @@
+text_id,es,zh,en,ja
+title,Jardín nocturno,夜间花园,Night Garden,夜の庭
+canvas,Lienzo interactivo. Intro crea una floración; espacio pausa.,交互画布。回车生成花朵，空格暂停。,Interactive canvas. Enter creates a bloom; Space pauses.,操作キャンバス。Enterで開花、スペースで一時停止。
+controls,Controles,控制,Controls,設定
+pause,Pausar,暂停,Pause,一時停止
+play,Continuar,继续,Resume,再開
+clear,Nuevo lienzo,新建画布,New canvas,新しいキャンバス
+close,Cerrar controles,关闭控制面板,Close controls,設定を閉じる
+intro,Dibuja floraciones de luz. Ajusta sus formas y deja que la noche crezca.,绘制光之花。调整形态，让夜色生长。,Draw blossoms of light. Shape their forms and let the night grow.,光の花を描き、形を整え、夜の庭を育てましょう。
+language,Idioma,语言,Language,言語
+autoLanguage,Automático,自动,Automatic,自動
+preset,Estilo,样式,Style,スタイル
+reset,Restablecer ajustes,重置设置,Reset settings,設定をリセット
+savePreset,Guardar preset,保存预设,Save preset,プリセットを保存
+emission,Ritmo y movimiento,节奏与运动,Rhythm and motion,リズムと動き
+mode,Emisión,生成模式,Emission,生成モード
+manual,Un toque,点击,Single tap,タップ
+automatic,Automática,自动,Automatic,自動
+drag,Mantener / arrastrar,按住 / 拖动,Hold / drag,長押し・ドラッグ
+flowersHeading,Forma de las flores,花朵形态,Flower shapes,花の形
+layers,Capas de luz,光效图层,Layers of light,光のレイヤー
+palette,Color y proporción,颜色与比例,Color and proportion,色と比率
+weightsHint,Cada color tiene un peso relativo. Al menos uno debe ser mayor que cero.,每种颜色都有相对权重。至少一个权重必须大于零。,Each color has a relative weight. At least one must be greater than zero.,各色の相対的な重みです。少なくとも1つは0より大きくしてください。
+composition,Composición,构图,Composition,構成
+seed,Semilla,种子,Seed,シード
+replay,Reproducir,回放,Replay,再生
+undo,Deshacer floración,撤销花朵,Undo bloom,開花を取り消す
+saveScene,Guardar escena,保存场景,Save scene,シーンを保存
+import,Importar JSON,导入 JSON,Import JSON,JSONを読み込む
+timelineHint,"Hasta 60 s por composición. La escena guarda posiciones, tiempos y ajustes de cada floración. Los cambios se aplican a las próximas flores.",每个构图最长60秒。场景保存每次开花的位置、时间和设置。修改应用于之后的花朵。,"Up to 60 s per composition. Scenes save each bloom’s position, time and settings. Changes affect the next blooms.",1つの構成は最大60秒。開花ごとの位置・時刻・設定を保存します。変更は次の開花に反映されます。
+exports,Exportar,导出,Export,書き出し
+video,Grabar WebM · 6 s,录制 WebM · 6秒,Record WebM · 6 s,WebM録画・6秒
+stopVideo,Detener grabación,停止录制,Stop recording,録画を停止
+html,HTML autónomo,独立 HTML,Standalone HTML,単独HTML
+videoHint,"Graba los próximos 6 segundos del lienzo, sin los controles. Puedes detener antes. PNG captura el instante actual.",录制画布接下来的6秒，不含控件。可提前停止。PNG保存当前画面。,Records the next 6 seconds of the canvas without controls. You can stop early. PNG captures the current frame.,これから6秒間のキャンバスを設定画面なしで録画します。途中停止も可能。PNGは現在の画面を保存します。
+shortcuts,Espacio: pausar. H: controles. Intro sobre el lienzo: floración central.,空格：暂停。H：控制面板。画布上按回车：中心开花。,Space: pause. H: controls. Enter on canvas: centered bloom.,スペース：一時停止。H：設定。キャンバス上でEnter：中央に開花。
+localHint,Sin cuentas ni conexión. Los presets guardados se descargan y se recuerdan en este navegador cuando es posible.,无需账户或网络。预设会下载，并尽可能在此浏览器中记住。,No accounts or connection. Saved presets download and are remembered in this browser when available.,アカウントや接続は不要。プリセットはダウンロードされ、可能な場合はこのブラウザーにも保存されます。
+hint,Toca para florecer · H para abrir los controles,点击开花 · H 打开控制面板,Tap to bloom · H opens controls,タップで開花・Hで設定を開く
+interval,Intervalo de emisión (s),生成间隔（秒）,Emission interval (s),生成間隔（秒）
+scale,Escala global,整体缩放,Overall scale,全体の大きさ
+speed,Velocidad,速度,Speed,速度
+density,Flores por floración,每次开花数量,Flowers per bloom,1回の花の数
+size,Tamaño de las flores,花朵大小,Flower size,花の大きさ
+petals,Pétalos,花瓣,Petals,花びらの数
+spread,Dispersión,分散程度,Spread,広がり
+stroke,Grosor de línea,线条粗细,Line width,線の太さ
+lifetime,Duración de las flores (×),花朵持续时间（倍）,Flower lifetime (×),花の寿命（倍率）
+flowers,Flores,花朵,Flowers,花
+rings,Anillos,光环,Rings,輪
+sparks,Chispas,火花,Sparks,火花
+curls,Estelas curvas,曲线光迹,Curled trails,曲線の軌跡
+flashes,Destello central,中心闪光,Central flash,中央の閃光
+linkColors,Vincular efectos a la paleta,将光效关联到调色板,Link effects to palette,エフェクトをパレットに連動
+background,Fondo,背景,Background,背景
+ringColor,Anillos,光环,Rings,輪
+curlColor,Estelas y destello,光迹与闪光,Trails and flash,軌跡と閃光
+centerColor,Centros y chispas,花心与火花,Centers and sparks,花の中心と火花
+nocturne,Nocturno,夜曲,Nocturne,夜想曲
+fireworks,Fuegos · v6,烟花 · v6,Fireworks · v6,花火・v6
+moonlight,Luz de luna,月光,Moonlight,月光
+ember,Ámbar,琥珀,Amber,琥珀
+herbarium,Herbario,植物标本,Herbarium,植物標本
+custom,Personalizado,自定义,Custom,カスタム
+nextBloom,Ajustes listos para las próximas floraciones.,设置将用于之后的花朵。,Settings ready for the next blooms.,次の開花に設定が反映されます。
+invalid,Archivo o valor no válido. Se conservan los ajustes anteriores.,文件或数值无效。已保留原设置。,Invalid file or value. Previous settings kept.,無効なファイルまたは値です。以前の設定を維持しました。
+saved,Preset descargado y guardado en este navegador.,预设已下载并保存到此浏览器。,Preset downloaded and saved in this browser.,プリセットをダウンロードし、このブラウザーに保存しました。
+storageError,El navegador no pudo recordar el preset. Conserva el JSON descargado.,浏览器无法记住预设。请保留下载的 JSON。,The browser could not remember the preset. Keep the downloaded JSON.,ブラウザーに保存できませんでした。ダウンロードしたJSONを保管してください。
+limit,Fin del límite de composición. Usa Nuevo lienzo para comenzar otra o Reproducir para verla.,已达到构图限制。选择新建画布开始，或回放查看。,Composition limit reached. Use New canvas to start another or Replay to view it.,構成の上限に達しました。新しいキャンバスで開始するか、再生で確認してください。
+pausedHint,La animación está pausada. Pulsa Continuar para crear flores.,动画已暂停。点击继续以生成花朵。,Animation is paused. Press Resume to create blooms.,一時停止中です。再開すると花を作れます。
+stats,{seconds} s · {count} elementos,{seconds} 秒 · {count} 个元素,{seconds} s · {count} elements,{seconds} 秒・{count} 要素
+loaded,Escena importada. Reproduciendo.,场景已导入，正在回放。,Scene imported. Replaying.,シーンを読み込みました。再生中です。
+exported,Archivo exportado.,文件已导出。,File exported.,ファイルを書き出しました。
+exportError,No se pudo exportar. Intenta nuevamente.,无法导出，请重试。,Export failed. Please try again.,書き出せませんでした。再試行してください。
+empty,Crea una floración antes de exportar la escena.,请先生成花朵，再导出场景。,Create a bloom before exporting the scene.,開花を作成してからシーンを書き出してください。
+exportHint,Toca o pulsa espacio para pausar o continuar.,点击或按空格暂停或继续。,Click or press Space to pause or resume.,クリックまたはスペースで一時停止・再開。
+recording,Grabando el lienzo durante un máximo de 6 segundos…,正在录制画布，最长6秒…,Recording the canvas for up to 6 seconds…,キャンバスを最大6秒間録画中…
+unsupported,Este navegador no admite grabación WebM. Puedes exportar PNG o HTML.,此浏览器不支持 WebM 录制。可导出 PNG 或 HTML。,This browser does not support WebM recording. Export PNG or HTML instead.,このブラウザーはWebM録画に対応していません。PNGまたはHTMLで書き出せます。
+reducedMotion,Movimiento reducido: vista pausada. Puedes continuar cuando quieras.,减少动态效果：当前已暂停。可随时继续。,Reduced motion: paused preview. Resume whenever you wish.,動きを抑える設定のため一時停止中です。必要に応じて再開できます。
+snapshotTitle,Actualizar traducciones locales,更新本地翻译,Update local translations,ローカル翻訳を更新
+snapshotHint,Selecciona translations.csv. Se descargará translations.generated.js para reemplazarlo en locales/.,选择 translations.csv。下载的 translations.generated.js 用于替换 locales/ 中的文件。,Select translations.csv. Downloaded translations.generated.js replaces the file in locales/.,translations.csvを選択してください。ダウンロードしたtranslations.generated.jsでlocales/内のファイルを置き換えます。
+snapshotChoose,Seleccionar CSV,选择 CSV,Select CSV,CSVを選択
+color1,Color 1,颜色 1,Color 1,色 1
+weight1,Peso del color 1,颜色 1 权重,Color 1 weight,色 1 の重み
+color2,Color 2,颜色 2,Color 2,色 2
+weight2,Peso del color 2,颜色 2 权重,Color 2 weight,色 2 の重み
+color3,Color 3,颜色 3,Color 3,色 3
+weight3,Peso del color 3,颜色 3 权重,Color 3 weight,色 3 の重み
+color4,Color 4,颜色 4,Color 4,色 4
+weight4,Peso del color 4,颜色 4 权重,Color 4 weight,色 4 の重み
+color5,Color 5,颜色 5,Color 5,色 5
+weight5,Peso del color 5,颜色 5 权重,Color 5 weight,色 5 の重み
+color6,Color 6,颜色 6,Color 6,色 6
+weight6,Peso del color 6,颜色 6 权重,Color 6 weight,色 6 の重み
